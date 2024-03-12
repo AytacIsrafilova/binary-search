@@ -1,0 +1,49 @@
+using System;
+
+namespace BinarySearch
+{
+    internal class Program
+    {
+        //public static int BinarySearch(int[] arr, int select)
+        //{
+        //    int start = 0;
+        //    int end = arr.Length - 1;
+
+        //    while (start <= end)
+        //    {
+        //        int mid = (start + end) / 2;
+        //        if (arr[mid] == select)
+        //        {
+        //            return mid;
+        //        }
+        //        else if (arr[mid] < select)
+        //        {
+        //            start = mid + 1;
+        //        }
+        //        else
+        //        {
+        //            end = mid - 1;
+        //        }
+        //    }
+
+        //    return -1;
+        //}
+
+        //public static void Main(string[] args)
+        //{
+        //    int[] arr = { 2, 5, 8, 12, 16, 23, 38, 56, 72, 91};
+        //    int search =23;
+
+        //    int result = BinarySearch(arr, search);
+
+        //    if (result != -1)
+        //    {
+        //        Console.WriteLine($"Element {search} found at index {result}");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"Element {search} not found in the array");
+        //    }
+        // }
+    }
+}
